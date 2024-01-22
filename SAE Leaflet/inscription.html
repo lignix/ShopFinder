@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./css/style_auth.css">
+    <!-- Ajoutez ici vos autres balises d'inclusion de CSS, si nécessaire -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./scripts/inscription.js"></script>
+</head>
+
+<body>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <h2>Inscription</h2>
+            <form id="registerForm">
+                <!-- Vos champs de formulaire ici -->
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="button" id="registerButton">S'inscrire</button>
+
+                <div id="result"></div> <!-- Emplacement pour afficher le message d'erreur -->
+            </form>
+
+            <!-- Lien vers la page de connexion -->
+            <p>Vous avez déjà un compte? <a href="./auth.html">Connectez-vous ici</a></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

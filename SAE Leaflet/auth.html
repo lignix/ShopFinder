@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="./css/style_auth.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./scripts/authentification.js"></script>
+</head>
+<body>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <h2>Connexion</h2>
+        <form id="loginForm">
+            <!-- Vos champs de formulaire ici -->
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" id="loginButton">Se connecter</button>
+
+            <div id="result"></div>
+        </form>
+        
+        <!-- Lien vers la page d'inscription -->
+        <p>Vous n'avez pas de compte? <a href="./inscription.html">Inscrivez-vous ici</a></p>
+    </div>
+</div>
+
+</body>
+</html>
