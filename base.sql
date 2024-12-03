@@ -33,7 +33,7 @@ UNIQUE (`user`(255));
 
 INSERT INTO `utilisateur` (`user`, `password`) VALUES
 ('admin', 'admin'),
-('Charles', 'Bouvier'),
+('Charles', 'Bouvier');
 
 
 
